@@ -1,0 +1,25 @@
+{
+  "name": "apnl",
+  "version": "1.0.0",
+  "description": "NodeJS SDK for using AppsPanel Mobile Backend (APNL)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appspanel/sdk-nodejs.git"
+  },
+  "keywords": [
+    "apnl",
+    "appspanel",
+    "api",
+    "backend"
+  ],
+  "author": "Florian Bureau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appspanel/sdk-nodejs/issues"
+  },
+  "homepage": "https://github.com/appspanel/sdk-nodejs#readme"
+}
