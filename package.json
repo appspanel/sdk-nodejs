@@ -1,6 +1,6 @@
 {
   "name": "apnl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NodeJS SDK for using AppsPanel Mobile Backend (APNL)",
   "main": "index.js",
   "scripts": {
