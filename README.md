@@ -40,7 +40,7 @@ Build ap-config.json :
 #### 3 - Include & Run ####
 
 ```javascript
-var apnl = require('../index.js')();
+var apnl = require('apnl')();
 ```
 
 if configuration is named "ap-config.json" and exist in the current directory.
@@ -48,7 +48,7 @@ if configuration is named "ap-config.json" and exist in the current directory.
 or
 
 ```javascript
-var apnl = require('../index.js')('../ap-config.json');
+var apnl = require('apnl')('../ap-config.json');
 ```
 
 depending where your config is located and how it's nammed.
@@ -56,7 +56,7 @@ depending where your config is located and how it's nammed.
 Make your first call :
 
 ```javascript
-var apnl = require('../index.js')('../ap-config.json');
+var apnl = require('apnl')();
 
 //very simple GET request on /test with get parameters foo (value FOO), and callback success and error provided
 apnl.request("test?foo=FOO", null, function (data) {
