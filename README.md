@@ -3,8 +3,8 @@ NodeJS SDK for AppsPanel Mobile Backend (APNL)
 
 Use this sdk for :
   - Making API Call to your specific API (API Platform)
-  - Interacting with standard AppsPanel modules (User/Auth, File & Content Management) -- soon
-  - Sending specific KPI (Analytics) -- soon
+  - Interacting with standard AppsPanel modules (User/Auth, File & Content Management) -- coming soon
+  - Sending specific KPI (Analytics) -- coming soon
   
 Getting Started
 ---
