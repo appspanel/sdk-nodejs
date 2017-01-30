@@ -1,10 +1,10 @@
 NodeJS SDK for AppsPanel Mobile Backend (APNL)
 ===
 
-Use this sdk for :
-  - Making API Call to your specific API (API Platform)
-  - Interacting with standard AppsPanel modules (User/Auth, File & Content Management) -- coming soon
-  - Sending specific KPI (Analytics) -- coming soon
+Use this sdk to :
+  - Make API calls to your specific API (API Platform)
+  - Interact with standard AppsPanel modules (User/Auth, File & Content Management) -- coming soon
+  - Send specific KPI (Analytics) -- coming soon
   
 Getting Started
 ---
@@ -43,7 +43,7 @@ Build ap-config.json :
 var apnl = require('apnl')();
 ```
 
-if configuration is named "ap-config.json" and exist in the current directory.
+if configuration is named "ap-config.json" and exists in the current directory.
 
 or
 
@@ -51,7 +51,7 @@ or
 var apnl = require('apnl')('../ap-config.json');
 ```
 
-depending where your config is located and how it's nammed.
+depending on where your config is located and how it is named.
 
 Make your first call :
 
